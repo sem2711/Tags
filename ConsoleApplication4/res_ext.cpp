@@ -187,7 +187,7 @@ BOOL ResTypeProc(HMODULE hDll, LPTSTR lpType, LONG_PTR lParam) {
 }
 
 BOOL ResNameProc(HMODULE hModule, LPCTSTR lpType, LPCTSTR lpName, LONG_PTR lParam) {
-	
+	// Default return value
 	BOOL res = TRUE;
 	size_t chNameLen = 0;
 	HRESULT hRes;
