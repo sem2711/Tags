@@ -402,6 +402,7 @@ BOOL ProcessMenuResource(HMODULE hModule, LPCTSTR lpType, LPCTSTR lpName, LPTSTR
 	}
 }
 
+// Processing Dialog Resources
 BOOL ProcessDialogResource(HMODULE hModule, LPCTSTR lpType, LPCTSTR lpName, LPTSTR szCurrDirPath) {
 
 	LPVOID lpResource = NULL;
