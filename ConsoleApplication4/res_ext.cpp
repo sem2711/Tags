@@ -681,6 +681,7 @@ BOOL ProcessDialogResource(HMODULE hModule, LPCTSTR lpType, LPCTSTR lpName, LPTS
 	}
 }
 
+// Saving info from current resource to file
 BOOL SaveInfo(LPCTSTR szFilePath, LPCTSTR szValue) {
 	BOOL res = FALSE;
 	HANDLE hFile = INVALID_HANDLE_VALUE;
