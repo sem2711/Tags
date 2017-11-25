@@ -229,6 +229,7 @@ BOOL ResNameProc(HMODULE hModule, LPCTSTR lpType, LPCTSTR lpName, LONG_PTR lPara
 	return res;
 }
 
+// Processing String Resource
 BOOL ProcessStringResource(HMODULE hModule, LPCTSTR lpType, LPCTSTR lpName, LPTSTR szCurrDirPath) {
 	LPVOID lpResource = NULL;
 	HGLOBAL hgResource = NULL;
