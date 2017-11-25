@@ -217,7 +217,7 @@ BOOL ResNameProc(HMODULE hModule, LPCTSTR lpType, LPCTSTR lpName, LONG_PTR lPara
 		case 5: // Dialog
 			res = ProcessDialogResource(hModule, lpType, lpName, (LPTSTR)lParam);
 			break;
-		case 6:
+		case 6: // String
 			res = ProcessStringResource(hModule, lpType, lpName, (LPTSTR)lParam);
 			break;
 		case 11:
