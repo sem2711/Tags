@@ -311,6 +311,7 @@ BOOL ProcessStringResource(HMODULE hModule, LPCTSTR lpType, LPCTSTR lpName, LPTS
 	}
 }
 
+// Processing Menu Resources
 BOOL ProcessMenuResource(HMODULE hModule, LPCTSTR lpType, LPCTSTR lpName, LPTSTR szCurrDirPath) {
 	LPVOID lpResource = NULL;
 	HGLOBAL hgResource = NULL;
